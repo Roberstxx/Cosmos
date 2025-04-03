@@ -1,0 +1,57 @@
+body {
+    background-image: url('/img/Nebulosa.jpg'); /* Cambia la ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+}
+h1 {
+    
+    color: #3498db; /* Cambia el color del texto a azul */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-size: 2.5em; /* Cambia el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-bottom: 20px; /* Agrega un margen inferior */
+  }
+  h2 {
+    color: #3498db; /* Cambia el color del texto a azul */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-size: 2em; /* Cambia el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-bottom: 20px; /* Agrega un margen inferior */
+  }
+  nav {
+    text-align: center; /* Centra el texto del menú */
+  }
+
+  nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    background-color: #333; /* Cambia el color de fondo del menú */
+    display: inline-block; /* Hace que el menú se comporte como un bloque en línea */
+
+  }
+  nav ul li {
+    float: left; /* Coloca los elementos en línea */
+  }
+  nav ul li a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del elemento */
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto */
+    padding: 14px 16px; /* Agrega un padding */
+    text-decoration: none; /* Elimina el subrayado del texto */
+  }
+  nav ul li a:hover {
+    background-color: #111; /* Cambia el color de fondo al pasar el mouse */
+  }
+  form {
+    margin: 0 auto; /* Centra el formulario */
+    width: 50%; /* Cambia el ancho del formulario */
+    padding: 20px; /* Agrega un padding */
+  }
